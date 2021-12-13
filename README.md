@@ -32,4 +32,28 @@ To understand the demand for shared bikes among the people after this ongoing qu
 	- casual: count of casual users
 	- registered: count of registered users
 	- cnt: count of total rental bikes including both casual and registered
+	
+#### Packages Used
+1. Numpy
+2. Pandas
+3. Matplotlib
+4. Seaborn
+5. sklearn.model_selection - train_test_split
+6. sklearn.preprocessing - MinMaxScaler
+7. statsmodel.api
+8. statsmodels.stats.outliers_influence - variance_inflation_factor
+
+#### Steps Involved
+1. Reading and Understanding the Data
+2. Data Preparation
+3. Exploratory Data Analysis
+4. Splitting the Data for model building
+5. Scalling
+6. Model Building & Summary Stats of the Model
+7. VIF
+8. Refining the Model Based on rsquared and VIF
+9. Residual Analysis
+10. Predicting the Model
+11. R-Score Analysis of Predicted Model
+12. Model Equation
 
